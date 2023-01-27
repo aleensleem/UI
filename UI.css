@@ -1,0 +1,64 @@
+body{
+background-color: #FAE9F5;
+    
+}
+
+header{
+color: #4d4141;
+width: 400px;
+height: 500px;
+font-size: 50px;
+}
+
+
+.white {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+.head span {
+    color: rgb(189, 189, 0);
+}
+
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #474094;
+    transform: skew(-30deg);
+    background-image: url(./images/Hydrogen-Health-Low-Res-82_1080x.webp);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+//*header{
+    color: #0000008F;
+    font-size:xx-large;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+ }
+
+ header{
+    width: 472px;
+    height: 176px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 116px;
+    text-align:end;
+
+color: rgba(0, 0, 0, 0.56);
+
+}
