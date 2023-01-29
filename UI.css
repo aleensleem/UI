@@ -1,42 +1,157 @@
-body{
-background-color: #FAE9F5;
-    
+*{
+    border: 1px solid;
+    margin: 0%;
+    font-family: 'Trade Gothic LT';
 }
 
 header{
-color: #4d4141;
-width: 400px;
-height: 500px;
-font-size: 50px;
-}
-
-
-.white {
-    height: 100vh;
     display: flex;
-    justify-content: end;
-    align-items: flex-end;
+    justify-content: space-around;
+    align-items: center;
 }
 
-
-.head span {
-    color: rgb(189, 189, 0);
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vh;
 }
 
+li{
+    list-style-type: none;
+}
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_cart{
+    display: flex;
+    width: 5vh;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+ 
 body::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 50%;
-    height: 100%;
-    background-color: #474094;
+    height: 200%;
+    background-color: #096321;
     transform: skew(-30deg);
-    background-image: url(./images/Hydrogen-Health-Low-Res-82_1080x.webp);
-    background-repeat: no-repeat;
     z-index: -1;
 }
+
+.bottle_outline{
+    display: flex;
+    align-items:flex-start ;
+    height: 0px;
+    width: 3px;
+
+}
+
+.section1 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ 
+}
+
+.section1 h1{ 
+    margin-right: 30vh;
+    font-size: 70px;
+    margin-top: 80vh;
+    margin-bottom: 10vh; */
+} 
+
+.title span {
+    color: rgb(189, 189, 0);
+}
+
+/* .flip{
+    cursor: pointer;}
+    .flip:hover{
+        animation: flip 1s linear;
+        }
+        @keyframes flip{
+        from{
+        transform: rotateY(0deg);
+        }
+        to{
+        transform: rotateY(360deg);
+        }} */
+
+    .conteudo {
+    width:80%;
+    margin: auto;
+    margin-top: 20vh;
+    }
+
+    .gallery {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.8rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+   
+
+    }
+    .gallery::-webkit-scrollbar {
+    display: none;
+    }
+    .card {
+    background-color: rgb(177, 177, 249);
+    scroll-snap-align: start;
+    border-radius: 30px;
+    min-height: 400px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .card:nth-child(odd) {
+    background: linear-gradient(-229deg,
+    Jufbd52d, O ef3a7b);
+
+    }
+    .card:nth-child(even) {
+    background: linear-gradient(-229deg,
+    Duff70af, 5fa8fs);
+    }
+
+
+.conteudo h1{
+    position: absolute;
+    
+}
+
+/* body{
+background-color: #FAE9F5;  
+}
+
+header{
+color: #4d4141;
+width: 400px;
+height: 500px;
+font-size: 40px;
+}
+
+
+
+
+
+
+} */
+
 
 //*header{
     color: #0000008F;
